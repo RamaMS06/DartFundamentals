@@ -1,4 +1,5 @@
 /*
+
   Variables merupakan sebuah penampung data dan semua TipeData,
   variable ada dua tipe yaitu :
     1. Mutable (dapat diubah / deklarasi ulang) -> var
@@ -46,9 +47,9 @@ class Person {
   Final dapat digunakan pada top level class sebagai field pada class tersebut,
   dan dapat diubah nilai nya menggunakan constructor pada class nya.
 
-  Const tidak dapat digunakan pada top level class karena const top level class akan
-  terjadi dan di deklarasi ketika proses run time atau kompilasi terjadi, tetapi const 
-  dapat digunakan sebagai statuc variable untuk membuat variable nya global dan dapat
+  Const tidak dapat digunakan pada top level class karena akan di deklarasi
+  ketika proses run time atau kompilasi terjadi, tetapi const dapat digunakan
+  sebagai static variable untuk membuat variable nya global dan dapat
   diakses disemua class atau function.
 
   * Static biasanya dipakai ketika variable/field dan function/method dibuat untuk global,
