@@ -1,14 +1,18 @@
 /*
   Collection merupakan penampung multiple atau banyak data lebih dari satu,
   dan semua jenis Tipe Data dapat dimasukkan kedalam collection, di Dart 
-  terdapat 3 jenis (List, Set, Map) semuanya sama sama dapat menyimpan banyak nilai atau data.
+  terdapat 3 jenis Collections (List, Set, Map) semuanya sama sama dapat
+  menyimpan banyak nilai atau data.
 
   * List
   List digunakan untuk menampung banyak nilai secara berurutan
   dengan default index nya dimulai dari 0.
 
+  referensi:
+  https://medium.com/flutter-community/useful-list-methods-in-dart-6e173cac803d
+
   * Set
-  Mirip dengan list tetapi tidak boleh ada nilai yang duplikat
+  Mirip dengan list tetapi tidak boleh ada nilai yang duplikat (Unik)
 
   * Map
   Map merupakan tipe data collection yang tidak berurutan, memiliki

@@ -58,7 +58,11 @@ class Person {
   */
 
   final String name = '';
+  final String address;
   static const String name2 = '';
 
-  static doWork(){}
+  //Karena address belum di deklarasi default value nya, makan wajib dibuatkan constructor
+  Person(this.address);
+
+  static doWork() {}
 }
